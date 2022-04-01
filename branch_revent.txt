@@ -4,3 +4,11 @@ if (a + b > 10)
 {
 	Console.WriteLine("The answer is greater than 10.");
 }
+else if (a + b > 5)
+{
+	Console.WriteLine("The answer is between 10 and 5.");
+}
+else
+{
+	Console.WriteLine("The answer is not greater than 10.");
+}
